@@ -9,6 +9,11 @@ body {
   /* font-weight:300; */
 }
 
+.bg_internal {
+  background-image: url("../media/img/dots.png");
+  background-attachment:fixed;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#222;
@@ -114,7 +119,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:240px;
   float:left;
   position:fixed;
 }
@@ -128,6 +133,19 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+
+  height: 100%;
+
+  .s-contentBox; 
+}
+
+.s-contentBox {
+  background: white;
+  padding: 0em 2em;
+  // border-left: 1px solid #E0E0E0;
+
+  // .rounded-corners;
+  // .box-shadow-subtle;
 }
 
 small {
@@ -144,8 +162,13 @@ hr {
 header, footer {
   font-size: 0.95em;
 
+  h1 a {
+    color: inherit; 
+  }
+
   h3, h4, h5 {
     margin-bottom: 0.5em;
+    margin-top: 1em;
   }
 
   ul {
@@ -154,7 +177,7 @@ header, footer {
 }
 
 footer {
-  width:270px;
+  width:240px;
   float:left;
   position:fixed;
   bottom:50px;
@@ -164,11 +187,33 @@ footer {
   }
 }
 
-.rounded-corners (@radius: 5px) {
+.rounded-corners (@radius: 3px) {
   border-radius: @radius;
   -webkit-border-radius: @radius;
   -moz-border-radius: @radius;
 }
+
+.box-shadow-subtle {
+  -moz-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
+}
+
+
+.nav-tabs {
+  border: none;
+
+  li a {
+    color: inherit;
+  }
+
+  & > .active > a, & > .active > a:hover {
+    color: inherit;
+    border-bottom-color: #DDD;
+  }
+}
+
 .nav-tabs > li > a {
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -187,6 +232,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    height: 100%;
   }
 
   header, section, footer {

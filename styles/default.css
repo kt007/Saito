@@ -6,6 +6,10 @@ body {
   font-size:14px;
   line-height:1.8;
 }
+.bg_internal {
+  background-image:url("../media/img/dots.png");
+  background-attachment:fixed;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#222222;
@@ -77,7 +81,7 @@ dt {
 th { color:#444444; }
 img { max-width:100%; }
 header {
-  width:270px;
+  width:240px;
   float:left;
   position:fixed;
 }
@@ -86,6 +90,13 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  height:100%;
+  background:white;
+  padding:0em 2em;
+}
+.s-contentBox {
+  background:white;
+  padding:0em 2em;
 }
 small { font-size:11px; }
 hr {
@@ -95,15 +106,31 @@ hr {
   margin:0 0 20px;
 }
 header, footer { font-size:0.95em; }
-header h3, header h4, header h5, footer h3, footer h4, footer h5 { margin-bottom:0.5em; }
+header h1 a, footer h1 a { color:inherit; }
+header h3, header h4, header h5, footer h3, footer h4, footer h5 {
+  margin-bottom:0.5em;
+  margin-top:1em;
+}
 header ul, footer ul { list-style-type:none; }
 footer {
-  width:270px;
+  width:240px;
   float:left;
   position:fixed;
   bottom:50px;
 }
 footer .label-success { background-color:#00bb00; }
+.box-shadow-subtle {
+  -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
+  -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
+  -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
+  box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
+}
+.nav-tabs { border:none; }
+.nav-tabs li a { color:inherit; }
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  color:inherit;
+  border-bottom-color:#dddddd;
+}
 .nav-tabs > li > a {
   padding-top:3px;
   padding-bottom:3px;

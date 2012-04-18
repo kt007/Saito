@@ -7,7 +7,7 @@ Many thanks to all the folks contributing and helping to improve the software.
 
 And a shout-out to all the donors!
 
-| <i class='icon-resize-vertical'></i> Donors |<i class='icon-resize-vertical'></i> Amount | <i class='icon-resize-vertical'></i> Date | 
+| <i class='icon-resize-vertical'></i> Donor |<i class='icon-resize-vertical'></i> Value | <i class='icon-resize-vertical'></i> Last Seen | 
 | ----------	| ------ 	| ----------- |
 | Panxatony 	| 85 € 	  | 2011 |
 | 1984 	    | 50 € 	| 2010 |
