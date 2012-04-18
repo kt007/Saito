@@ -57,6 +57,15 @@ blockquote {
   font-style:italic;
 }
 
+blockquote[cite]:after {
+    display: block;
+    text-align: right;
+    content: "\2014\ " attr(cite);
+    font-style: normal;
+    font-size: 1.0em;
+		margin-right: 4em;
+    }
+
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
@@ -187,6 +196,7 @@ footer {
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
+
 
 /*
 @media print, screen and (max-width: 960px) {

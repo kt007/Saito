@@ -24,6 +24,12 @@ The [source code is hosted on GitHub][Saito Code].
 
 Please don't hesitate to [file issues or suggest ideas][Saito Issues].
 
+## What others have to say
+
+<blockquote cite="Schlaefer">
+Who wrote this and why? Wait … where are my pants?!
+</blockquote>
+
 </div>
 <div class="tab-pane" id="deutsch">
 
