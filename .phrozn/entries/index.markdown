@@ -1,0 +1,65 @@
+layout:	default.twig
+---
+<ul id='tab' class="nav nav-tabs">
+	<li class="active"><a href="#english" data-toggle='tab'>English</a></li>
+	<li><a href="#deutsch" data-toggle='tab'>Deutsch</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="english">
+
+##	What is it?
+
+Saito is an open source web forum written atop of [CakePHP].
+
+It provides a classic threaded forum with modern underpinnings.
+
+You can see it running on [macnemo.de], for which it was
+originally developed.
+
+## Where is it?
+
+The [source code is hosted on GitHub][Saito Code].
+
+## I have something to say!
+
+Please don't hesitate to [file issues or suggest ideas][Saito Issues].
+
+</div>
+<div class="tab-pane" id="deutsch">
+
+## Was?
+
+Saito ist ein Open Source Webforum auf Basis von [CakePHP].
+
+Es stellt ein klassisches Forum mit Baumstruktur zur Verfügung.
+
+Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprünglich entwickelt wurde.
+
+## Wo?
+Der [Quellcode ist auf GitHub gehostet][Saito Code].
+
+## Unterstützen!
+
+### Mitmachen
+
+Bitte nicht zögern [Ideen und Fehler melden][Saito Issues].
+
+### Spenden ###
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<input type="hidden" name="cmd" value="_s-xclick">
+	<input type="hidden" name="hosted_button_id" value="EKGLER5C5L4VU">
+	<button class="btn" title='Donate via Paypal'>
+		Spenden</button>
+	<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+	&nbsp;					Danke!
+</form>
+
+</div>
+</div>
+
+[CakePHP]: http://cakephp.org/
+[macnemo.de]: http://macnemo.de
+[Saito Code]: https://github.com/Schlaefer/Saito
+[Saito Issues]: https://github.com/Schlaefer/Saito/issues
