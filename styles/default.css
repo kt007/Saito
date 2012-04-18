@@ -116,3 +116,7 @@ footer .label-success { background-color:#00bb00; }
   -webkit-border-radius:2px;
   -moz-border-radius:2px;
 }
+table.tablesorter thead tr .header { cursor:pointer; }
+table.tablesorter thead tr .header i { color:#cccccc; }
+table.tablesorter thead tr .headerSortUp i { color:#333333; }
+table.tablesorter thead tr .headerSortDown i { color:#333333; }

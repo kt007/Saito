@@ -1,11 +1,14 @@
 layout:	default.twig
 ---
-<ul id='tab' class="nav nav-tabs">
+
+<ul id="tab" class="nav nav-tabs">
 	<li class="active"><a href="#english" data-toggle='tab'>English</a></li>
 	<li><a href="#deutsch" data-toggle='tab'>Deutsch</a></li>
 </ul>
+
 <div class="tab-content">
-<div class="tab-pane active" id="english">
+
+<div class="tab-pane active" id="english" markdown="1">
 
 ##	What is it?
 
@@ -31,7 +34,7 @@ Who wrote this and why? Wait … where are my pants?!
 </blockquote>
 
 </div>
-<div class="tab-pane" id="deutsch">
+<div class="tab-pane" id="deutsch" markdown="1">
 
 ## Was?
 
