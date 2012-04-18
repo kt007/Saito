@@ -42,25 +42,12 @@ Es stellt ein klassisches Forum mit Baumstruktur zur Verfügung.
 Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprünglich entwickelt wurde.
 
 ## Wo?
-Der [Quellcode ist auf GitHub gehostet][Saito Code].
 
-## Unterstützen!
+Gehostet wird der [Quellcode auf GitHub][Saito Code].
 
-### Mitmachen
+## Mitmachen!
 
-Bitte nicht zögern [Ideen und Fehler melden][Saito Issues].
-
-### Spenden ###
-
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-	<input type="hidden" name="cmd" value="_s-xclick">
-	<input type="hidden" name="hosted_button_id" value="EKGLER5C5L4VU">
-	<button class="btn" title='Donate via Paypal'>
-		Spenden</button>
-	<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-	&nbsp;					Danke!
-</form>
+Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 
 </div>
 </div>
