@@ -15,5 +15,5 @@ And a shout-out to all the donors!
 | redcurry 	  | 50 € 	  | 2010 |
 
 <small class='muted'>
-Someone missing? Please let us know!
+Someone's missing? Please let us know!
 </small>
