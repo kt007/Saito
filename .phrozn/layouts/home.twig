@@ -23,7 +23,7 @@
         <div class="row">
           <div class="span4 offset1">
             <div class="boxes-info">
-              {% include 'layouts/footer.twig' %}
+              {% include 'layouts/status.twig' %}
             </div>
           </div>
           <div class="span4">
@@ -41,22 +41,13 @@
         <div class="row">
           <div class="span10 offset1">
             {{ content }}
-          <hr>
           </div>
         </div>
     </div>
     <div id="footerPush"></div>
    </div>
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <small class="muted">
-              Created with <a href="http://www.phrozn.info/">Phrozn</a>
-            </small>
-          </div>
-        </div>
-      </div>
+      {% include 'layouts/footer.twig' %}
     </footer>
 
 

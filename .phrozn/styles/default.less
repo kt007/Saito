@@ -16,6 +16,13 @@ body {
 }
 
 .container {
+  background-color: white;
+  border: 1px solid @border-color;
+  border-width: 0 1px;
+  width: 940px;
+
+  .box-shadow-subtle;
+  .rounded-corners (3px);
 }
 
 .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
@@ -97,12 +104,6 @@ blockquote[cite]:after {
   height: 100%;
   margin: 0 auto -1*@footerHeight;
 
-  background-color: white;
-  border: 1px solid @border-color;
-  border-width: 0 1px;
-  width: 940px;
-
-  .box-shadow-subtle;
 }
 
 footer, #footerPush {
@@ -110,6 +111,8 @@ footer, #footerPush {
 }
 
 footer {
+  margin: 0 auto;
+  width: 940px;
   line-height: @footerHeight-2px;
   text-align: center;
 }
@@ -196,10 +199,10 @@ section {
 }
 
 .box-shadow-subtle {
-  -moz-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
-  -o-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,whiteSmoke 0px 1px 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,#969696 0px 1px 5px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,#969696 0px 5px 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,#969696 0px 1px 5px inset;
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px,#969696 0px 1px 5px inset;
 }
 
 /*********************************************************

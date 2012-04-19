@@ -18,27 +18,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <body>
     <div id="footerHelper">
-      {% include 'layouts/hero.twig' %}
       <div class="container">
+        {% include 'layouts/hero.twig' %}
         <div class="row">
           <div class="span10 offset1">
             {{ content }}
-          <hr>
           </div>
         </div>
     </div>
     <div id="footerPush"></div>
    </div>
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="span12">
-            <small class="muted">
-              Created with <a href="http://www.phrozn.info/">Phrozn</a>
-            </small>
-          </div>
-        </div>
-      </div>
+      {% include 'layouts/footer.twig' %}
     </footer>
 
 

@@ -6,6 +6,19 @@ body {
   background-image:url("../media/img/dots.png");
   background-attachment:fixed;
 }
+.container {
+  background-color:white;
+  border:1px solid #e0e0e0;
+  border-width:0 1px;
+  width:940px;
+  -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
+  -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 5px 1px inset;
+  -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
+  box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
+  border-radius:3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
 .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
   width:940px;
   padding:0 0px;
@@ -47,17 +60,11 @@ blockquote[cite]:after {
   height:auto !important;
   height:100%;
   margin:0 auto -40px;
-  background-color:white;
-  border:1px solid #e0e0e0;
-  border-width:0 1px;
-  width:940px;
-  -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
 }
 footer, #footerPush { height:40px; }
 footer {
+  margin:0 auto;
+  width:940px;
   line-height:;
   text-align:center;
 }
@@ -112,10 +119,10 @@ section { padding:0 2em; }
   padding:0em 2em;
 }
 .box-shadow-subtle {
-  -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
-  box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, whiteSmoke 0px 1px 1px inset;
+  -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
+  -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 5px 1px inset;
+  -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
+  box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #969696 0px 1px 5px inset;
 }
 table.tablesorter thead tr .header { cursor:pointer; }
 table.tablesorter thead tr .header i { color:#cccccc; }
