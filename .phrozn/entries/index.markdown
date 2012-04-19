@@ -64,7 +64,7 @@ Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 ---
 
 <div class="row">
-<div class="span6 offset3" markdown="1">
+<div class="span6 offset2" markdown="1">
 
 ## What others have to say
 
