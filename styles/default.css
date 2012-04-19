@@ -63,7 +63,7 @@ blockquote[cite]:after {
 }
 footer, #footerPush { height:40px; }
 footer {
-  line-height:40px;
+  line-height:;
   text-align:center;
 }
 section { padding:0 2em; }
