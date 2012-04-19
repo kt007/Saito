@@ -44,14 +44,18 @@ small { font-size:11px; }
 blockquote {
   font-style:italic;
   border-color:#a8bdc4;
+  border-left:none;
+  margin-bottom:20px;
 }
 blockquote[cite]:after {
   display:block;
-  text-align:right;
+  text-align:left;
   content:"\2014\ " attr(cite);
   font-style:normal;
   font-size:1em;
-  margin-right:4em;
+  margin-top:1em;
+  margin-left:16em;
+  margin-bottom:0;
 }
 .boxes-info h1 a { color:inherit; }
 .boxes-info h3, .boxes-info h4, .boxes-info h5 { margin-top:1em; }

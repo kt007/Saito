@@ -62,15 +62,19 @@ small {
 blockquote {
   font-style: italic;
   border-color: @border-color;
+  border-left: none;
+  margin-bottom: 20px;
 }
 
 blockquote[cite]:after {
     display: block;
-    text-align: right;
+    text-align: left;
     content: "\2014\ " attr(cite);
     font-style: normal;
     font-size: 1em;
-		margin-right: 4em;
+		margin-top: 1em;
+		margin-left: 16em;
+    margin-bottom: 0;
     }
 
 .boxes-info {

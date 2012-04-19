@@ -68,9 +68,27 @@ Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 
 ## What others have to say
 
+<blockquote cite="Blinder Passagier">
+Uii. Ein neuer Knopp. +1
+</blockquote>
+
+<blockquote cite="msc">
+Och nö!
+</blockquote>
+
+<blockquote cite="curus">
+Sieht soweit schick aus. Nur das Problem, daß man … [redacted]
+</blockquote>
+
+<blockquote cite="Blinder Passagier">
+Bug oder Feature?
+</blockquote>
+
 <blockquote cite="Schlaefer">
 Who wrote this and why? Wait … where are my pants?!
 </blockquote>
+
+
 
 </div>
 </div>
