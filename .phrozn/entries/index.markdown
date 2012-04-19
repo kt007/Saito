@@ -76,7 +76,7 @@ Uii. Ein neuer Knopp. +1
 Och nö!
 </blockquote>
 
-<blockquote cite="curus">
+<blockquote cite="cyrus">
 Sieht soweit schick aus. Nur das Problem, daß man … [redacted]
 </blockquote>
 
