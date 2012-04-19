@@ -3,6 +3,7 @@
 
 @base-dark: #607D86;
 @link-color: #005580;
+@border-color: #E0E0E0;
 
 html, body {
   height: 100%;
@@ -10,16 +11,11 @@ html, body {
 
 body {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
   .bg_internal;
 }
 
 .container {
-  background-color: white;
-  border: 1px solid #E0E0E0;
-  border-width: 0 1px;
-  min-height: 100%;
-
-  .box-shadow-subtle;
 }
 
 .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
@@ -44,6 +40,15 @@ a {
   color: @link-color;
 }
 
+hr {
+  border-top-color: @border-color;
+}
+
+small {
+  font-size:11px;
+}
+
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -60,8 +65,7 @@ blockquote[cite]:after {
 		margin-right: 4em;
     }
 
-header, footer {
-  font-size: 0.95em;
+.boxes-info {
 
   h1 a {
     color: inherit;
@@ -77,21 +81,40 @@ header, footer {
   ul {
     list-style-type: none;
   }
+
+  li {
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
 }
 
 #sidebar {
   padding-left: 30px;
 }
 
-footer {
-  width:240px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+@footerHeight: 40px;
 
-  .label-success {
-    background-color: #00bb00;
-  }
+#footerHelper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -1*@footerHeight;
+
+  background-color: white;
+  border: 1px solid @border-color;
+  border-width: 0 1px;
+  width: 940px;
+
+  .box-shadow-subtle;
+}
+
+footer, #footerPush {
+  height: @footerHeight;
+}
+
+footer {
+  line-height: @footerHeight;
+  text-align: center;
 }
 
 section {
@@ -109,6 +132,7 @@ section {
   text-shadow: 2px 2px 2px #333;
   padding: 15px 60px 5px;
   position: relative;
+  margin-bottom: 20px;
   .rounded-corners (0px);
 
   h1 {
@@ -308,10 +332,6 @@ section {
 
   // .rounded-corners;
   // .box-shadow-subtle;
-}
-
-small {
-  font-size:11px;
 }
 
 hr {
