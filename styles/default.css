@@ -13,7 +13,6 @@ body {
 }
 .container {
   background-color:white;
-  border:1px solid #607d86;
   border-width:0 1px;
   width:940px;
   padding-bottom:20px;
@@ -37,11 +36,14 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 a { color:#005580; }
-hr { border-top-color:#607d86; }
+hr {
+  border-top-color:#a8bdc4;
+  border-bottom:none;
+}
 small { font-size:11px; }
 blockquote {
   font-style:italic;
-  border-color:#607d86;
+  border-color:#a8bdc4;
 }
 blockquote[cite]:after {
   display:block;
@@ -133,4 +135,4 @@ table.tablesorter thead tr .header { cursor:pointer; }
 table.tablesorter thead tr .header i { color:#cccccc; }
 table.tablesorter thead tr .headerSortUp i { color:#005580; }
 table.tablesorter thead tr .headerSortDown i { color:#005580; }
-.table th, .table td { border-color:#607d86; }
+.table th, .table td { border-color:#a8bdc4; }
