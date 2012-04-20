@@ -16,6 +16,7 @@ body {
   border-width:0 1px;
   width:940px;
   padding-bottom:20px;
+  overflow:hidden;
   -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 1px 5px inset;
   -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 5px 1px inset;
   -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 1px 5px inset;
@@ -56,6 +57,18 @@ blockquote[cite]:after {
   margin-top:1em;
   margin-left:16em;
   margin-bottom:0;
+}
+#boxes-row {
+  padding-top:20px;
+  margin-top:-20px;
+  margin-bottom:20px;
+  background-color:#e5eef0;
+  background-image:-webkit-radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
+  background-image:-moz-radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
+  background-image:-o-radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
+  background-image:-ms-radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
+  background-image:radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
+  border-bottom:1px solid #a8bdc4;
 }
 .boxes-info h1 a { color:inherit; }
 .boxes-info h3, .boxes-info h4, .boxes-info h5 { margin-top:1em; }
