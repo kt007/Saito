@@ -41,6 +41,7 @@ a { color:#005580; }
 hr {
   border-top-color:#a8bdc4;
   border-bottom:none;
+  margin:25px 0;
 }
 small { font-size:11px; }
 .icon-schmuck {
