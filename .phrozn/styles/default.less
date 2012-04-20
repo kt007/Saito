@@ -2,6 +2,7 @@
 
 @base-dark: #607D86;
 @base-light: #E5EEF0;
+@base-veryLight: #F2FAFC;
 @link-color: #005580;
 @border-color: #A8BDC4;
 
@@ -28,6 +29,9 @@ body {
   padding-bottom: 20px;
 
   overflow: hidden;
+
+  z-index: 5;
+  position: relative;
 
   .box-shadow-subtle;
   .rounded-corners (3px);
@@ -60,6 +64,16 @@ small {
   font-size:11px;
 }
 
+.icon-schmuck {
+  position: absolute;
+  font-size: 174px;
+  line-height: 174px;
+  right: -42px;
+  top: -10px;
+  z-index: -5;
+  color: @base-light;
+}
+
 
 blockquote {
   font-style: italic;
@@ -78,6 +92,11 @@ blockquote[cite]:after {
 		margin-left: 16em;
     margin-bottom: 0;
     }
+
+.row {
+  // position for .icon-schmuck
+  position: relative;
+}
 
 .span5 {
   padding-right: 20px;
@@ -159,10 +178,10 @@ section {
   color: white;
   background: @base-dark;
   background-image: -webkit-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px), url("../media/img/dots_light.png");
-  background-image: -moz-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px);
-  background-image: -o-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px);
-  background-image: -ms-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px);
-  background-image: radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px);
+  background-image: -moz-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px), url("../media/img/dots_light.png");
+  background-image: -o-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px), url("../media/img/dots_light.png");
+  background-image: -ms-radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px), url("../media/img/dots_light.png");
+  background-image: radial-gradient(50% 2%, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 500px), url("../media/img/dots_light.png");
 
   text-shadow: -1px 2px 3px rgba(255, 255, 255, 0.4), 0px -1px 3px rgba(0, 0, 0, 0.4);
 
@@ -260,6 +279,10 @@ table.tablesorter thead tr .headerSortDown i {
 
 .table th, .table td {
   border-color: @border-color;
+}
+
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+  background-color: @base-veryLight;
 }
 
 /*

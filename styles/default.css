@@ -16,6 +16,8 @@ body {
   width:940px;
   padding-bottom:20px;
   overflow:hidden;
+  z-index:5;
+  position:relative;
   -moz-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 1px 5px inset;
   -webkit-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 5px 1px inset;
   -o-box-shadow:rgba(255,255,255,0.6) 0px 1px 1px, #333333 0px 1px 5px inset;
@@ -41,6 +43,15 @@ hr {
   border-bottom:none;
 }
 small { font-size:11px; }
+.icon-schmuck {
+  position:absolute;
+  font-size:174px;
+  line-height:174px;
+  right:-42px;
+  top:-10px;
+  z-index:-5;
+  color:#e5eef0;
+}
 blockquote {
   font-style:italic;
   border-color:#a8bdc4;
@@ -57,6 +68,7 @@ blockquote[cite]:after {
   margin-left:16em;
   margin-bottom:0;
 }
+.row { position:relative; }
 .span5 {
   padding-right:20px;
   width:360px;
@@ -101,10 +113,10 @@ section { padding:0 2em; }
   color:white;
   background:#607d86;
   background-image:-webkit-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
-  background-image:-moz-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
-  background-image:-o-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
-  background-image:-ms-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
-  background-image:radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
+  background-image:-moz-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
+  background-image:-o-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
+  background-image:-ms-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
+  background-image:radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
   text-shadow:-1px 2px 3px rgba(255,255,255,0.4), 0px -1px 3px rgba(0,0,0,0.4);
   box-shadow:0px 2px 3px #333333;
   padding:25px 0px 10px;
@@ -157,3 +169,4 @@ table.tablesorter thead tr .header i { color:#cccccc; }
 table.tablesorter thead tr .headerSortUp i { color:#005580; }
 table.tablesorter thead tr .headerSortDown i { color:#005580; }
 .table th, .table td { border-color:#a8bdc4; }
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th { background-color:#f2fafc; }

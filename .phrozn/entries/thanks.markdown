@@ -2,6 +2,7 @@ layout:	default.twig
 ---
 
 <div class="row">
+<i class='icon-heart icon-schmuck'></i>
 <div class="span5" markdown="1">
 # Thanks!
 
