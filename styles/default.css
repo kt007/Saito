@@ -4,7 +4,6 @@ body {
   font-family:'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height:20px;
   background-image:url("../media/img/dots.png");
-  background-attachment:fixed;
   background-color:#f8f8f8;
 }
 .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
@@ -63,8 +62,8 @@ blockquote[cite]:after {
   width:360px;
 }
 #boxes-row {
-  padding-top:20px;
-  margin-top:-20px;
+  padding-top:30px;
+  margin-top:-30px;
   margin-bottom:20px;
   background-color:#e5eef0;
   background-image:-webkit-radial-gradient(50% 2%,rgba(255,255,255,0.8),rgba(255,255,255,0) 500px), url("../media/img/bg-boxes.jpg");
@@ -97,14 +96,11 @@ footer {
   text-align:center;
 }
 section { padding:0 2em; }
-.bg_internal {
-  background-image:url("../media/img/dots.png");
-  background-attachment:fixed;
-}
+.bg_internal { background-image:url("../media/img/dots.png"); }
 .hero-unit {
   color:white;
   background:#607d86;
-  background-image:-webkit-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
+  background-image:-webkit-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
   background-image:-moz-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
   background-image:-o-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
   background-image:-ms-radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px);
@@ -113,7 +109,7 @@ section { padding:0 2em; }
   box-shadow:0px 2px 3px #333333;
   padding:25px 0px 10px;
   position:relative;
-  margin-bottom:20px;
+  margin-bottom:30px;
   border-radius:0px;
   -webkit-border-radius:0px;
   -moz-border-radius:0px;
