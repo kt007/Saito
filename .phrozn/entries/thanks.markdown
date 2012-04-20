@@ -24,7 +24,7 @@ And a shout-out to all the donors!
 </div>
 <div class="span5" markdown="1">
 
-Und ein Gruß an an alle Spender!
+Und ein Gruß an alle Spender!
 
 </div>
 </div>
