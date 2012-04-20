@@ -120,6 +120,7 @@ section { padding:0 2em; }
   background-image:radial-gradient(50% 2%,rgba(255,255,255,0.4),rgba(255,255,255,0) 500px), url("../media/img/dots_light.png");
   text-shadow:-1px 2px 3px rgba(255,255,255,0.4), 0px -1px 3px rgba(0,0,0,0.4);
   box-shadow:0px 2px 3px #333333;
+  z-index:10;
   padding:25px 0px 10px;
   position:relative;
   margin-bottom:30px;
