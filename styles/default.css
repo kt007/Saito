@@ -140,3 +140,4 @@ table.tablesorter thead tr .header i { color:#cccccc; }
 table.tablesorter thead tr .headerSortUp i { color:#005580; }
 table.tablesorter thead tr .headerSortDown i { color:#005580; }
 .table th, .table td { border-color:#a8bdc4; }
+iframe[src*="api.flattr.com/button/popout/"] { display:none !important; }
