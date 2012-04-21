@@ -31,7 +31,7 @@ Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprüng
 
 We had the need for a classic threaded forum but with modern, maintainable and extendable source.
 
-One goal was to have it deployable even on cheap webhoster.
+One goal was to have it deployable even on cheap webhosters.
 
 </div>
 <div class="span5" markdown="1">
