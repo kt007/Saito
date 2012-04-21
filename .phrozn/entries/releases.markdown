@@ -28,8 +28,6 @@
 
     Sully runs out the door. Mike is following. They run out of the picture leaving the scene to the right.
 
-    Cut to …
-
 ## Once Upon a Time in the East
 
 - 2010-07-08 – going public with 1.0b1
