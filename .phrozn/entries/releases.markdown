@@ -1,7 +1,12 @@
+# Release Notes
+
+<i class='icon-info-sign icon-schmuck'></i>
+
 ## 2012.06 (unreleased)
 
 - [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-14 
 - [fix] localized german month names in search form
+- [fix] fully localized footer (disclaimer)
 
 ## 2012-04-14
 
