@@ -2,10 +2,10 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
-## master (not officially released)
+## master head (not officially released)
 
 - Dedicated [Saito homepage](http://saito.siezi.com/)
-- [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-14 
+- [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-13
 - [new] Die "macnemo-threads-zuklappen" Erweiterung für Chrome von mir bzw. die Safari Variante von kt007 ist jetzt ins Forum eingebaut #GuteNachtDeutschland
 - [fix] localized german month names in search form
 - [fix] fully localized footer (disclaimer)
