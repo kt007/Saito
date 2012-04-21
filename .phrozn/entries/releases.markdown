@@ -20,7 +20,7 @@
 - Mods können eigene, angepinnte Beiträge nachbearbeiten
 - Und der Admin hat jetzt eine Zeitzonen-Einstellungen in seinem Panel
 
-## Then
+## Then …
 
     A beach scene in the south sea. A straw hat on the left.
 
