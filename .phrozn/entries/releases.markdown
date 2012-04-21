@@ -22,8 +22,13 @@
 
 ## Then
 
-… much happened …
+    A beach scene in the south sea. A straw hat on the left.
 
+    Sully throws the hat-door open.
+
+    Sully runs out the door. Mike is following. They run out of the picture leaving the scene to the right.
+
+    Cut to …
 
 ## Once Upon a Time in the East
 
