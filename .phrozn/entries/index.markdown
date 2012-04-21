@@ -29,14 +29,14 @@ Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprüng
 
 ## Why?
 
-We had the need for a classic threaded forum but with modern, maintainable and extendable source.
+We had the need for a classic threaded forum but with modern, maintainable and extendable source for [macnemo.de].
 
 </div>
 <div class="span5" markdown="1">
 
 ## Warum?
 
-Wir wollten ein klassisches Forum mit Baumstrukutr und gleichzeitig eine halbwegs modernen, wartbaren und erweiterbaren Quellcode.
+Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode für [macnemo.de].
 
 </div>
 </div>
