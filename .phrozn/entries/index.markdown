@@ -40,7 +40,7 @@ The forum should be deployable to any cheap webhoster.
 
 Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode für [macnemo.de].
 
-Das Forum sollte auf jedem Webhoster selbst mit kleinstem Tarif zu installieren sein.
+Das Forum soll auf jedem Webhoster selbst im kleinstem Paket zu installieren sein.
 
 </div>
 </div>
