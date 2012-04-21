@@ -29,7 +29,7 @@ Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprüng
 
 ## Why?
 
-We had the need for a classic threaded forum but with modern, maintainable and extendable source for [macnemo.de].
+We had the need for a classic threaded forum but with modern, maintainable and extendable source.
 
 The forum should be deployable to any cheap webhoster.
 
@@ -38,7 +38,7 @@ The forum should be deployable to any cheap webhoster.
 
 ## Warum?
 
-Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode für [macnemo.de].
+Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode.
 
 Das Forum soll auf jedem Webhoster selbst im kleinstem Paket zu installieren sein.
 
