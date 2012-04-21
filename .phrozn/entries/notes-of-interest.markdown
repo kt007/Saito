@@ -1,6 +1,6 @@
 # Notes
 
-The forum was originally designed to run on a [mylittleforum ][mlf] 1.x database *at same time* as [mylittleforum][mlf]. If you encounter WTF: consider if it makes sense in that context … and then slay it!
+The forum was originally designed to run on a [mylittleforum ][mlf] 1.x database *at same time* as [mylittleforum][mlf]. If you encounter WTF: consider if it makes sense in that context … and then shoot it!
 
 Currently it's only running at and therefor is still partly customized for [macnemo.de][macnemo].
 
