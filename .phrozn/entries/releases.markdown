@@ -24,9 +24,9 @@
 
     A beach scene in the south sea. A straw hat on the left.
 
-    Sully throws the hat-door open.
-
-    Sully runs out the door. Mike is following. They frantically run out of the picture leaving the scene to the right.
+    Sully throws the hat-door open. Sully runs out the door, Mike is following. 
+    
+    They frantically run out of the picture leaving the scene to the right.
 
 ## Once Upon a Time in the East
 
