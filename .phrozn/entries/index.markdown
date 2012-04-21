@@ -31,7 +31,7 @@ Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprüng
 
 We had the need for a classic threaded forum but with modern, maintainable and extendable source.
 
-The forum should be deployable to any cheap webhoster.
+One goal was to have it deployable even on cheap webhoster.
 
 </div>
 <div class="span5" markdown="1">
@@ -40,7 +40,7 @@ The forum should be deployable to any cheap webhoster.
 
 Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode.
 
-Das Forum soll auf jedem Webhoster selbst im kleinstem Paket zu installieren sein.
+Ein Ziel war es, das Forum auf Webhostern selbst im günstigsten Paket installieren zu können.
 
 </div>
 </div>
