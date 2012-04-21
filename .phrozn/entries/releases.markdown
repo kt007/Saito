@@ -27,7 +27,7 @@
 - 2010-06-21 – eating dogfoot
 - 2010-06-17 – git init .
 
-## The forgotten founder
+## The Forgotten Founder
 
-- 2010 - Rails was finally abandoned, but valuable lessons were learned from Batu 
-- 2008 – "Batu" the rails version was written
+- 2010 - RoR was finally abandoned, but valuable lessons were learned from Batu 
+- 2008 – "Batu" the Rails version was written
