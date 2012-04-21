@@ -1,6 +1,7 @@
 ## 2012.06 (unreleased)
 
 - [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-14 
+- [fix] localized german month names in search form
 
 ## 2012-04-14
 
