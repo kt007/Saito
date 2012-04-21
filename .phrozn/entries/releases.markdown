@@ -29,5 +29,5 @@
 
 ## The Forgotten Founder
 
-- 2010 - RoR was finally abandoned, but valuable lessons were learned from Batu 
+- 2010 – RoR was finally abandoned, but valuable lessons were learned from Batu 
 - 2008 – "Batu" the Rails version was written
