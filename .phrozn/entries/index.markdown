@@ -8,8 +8,6 @@ layout:	home.twig
 
 Saito is an open source web forum written atop of [CakePHP].
 
-It provides a classic threaded forum with modern underpinnings.
-
 You can see it running on [macnemo.de], for which it was
 originally developed.
 
@@ -20,9 +18,25 @@ originally developed.
 
 Saito ist ein Open Source Webforum auf Basis von [CakePHP].
 
-Es stellt ein klassisches Forum mit Baumstruktur zur Verfügung.
-
 Eine Installation kann auf [macnemo.de] angeschaut werden, für das es ursprünglich entwickelt wurde.
+
+</div>
+</div>
+
+
+<div class="row">
+<div class="span5" markdown="1">
+
+## Why?
+
+We had the need for a classic threaded forum but with modern, maintainable and extendable source.
+
+</div>
+<div class="span5" markdown="1">
+
+## Warum?
+
+Wir wollten ein klassisches Forum mit Baumstrukutr und gleichzeitig eine halbwegs modernen, wartbaren und erweiterbaren Quellcode.
 
 </div>
 </div>
