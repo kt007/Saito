@@ -26,7 +26,7 @@
 
     Sully throws the hat-door open. Sully runs out the door, Mike is following. 
     
-    They frantically passing the scene leaving it to the right.
+    They frantically passing the scene leaving it on the right.
 
 ## Once Upon a Time in the East
 
