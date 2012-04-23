@@ -6,10 +6,11 @@
 
 - Dedicated [Saito homepage](http://saito.siezi.com/)
 - [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-13
-- [new] Die "macnemo-threads-zuklappen" Erweiterung für Chrome von mir bzw. die Safari Variante von kt007 ist jetzt ins Forum eingebaut #GuteNachtDeutschland
+- [new] New close thread button (client side only)
+- [new] Resolution independend icons in navigation bar
 - [fix] localized german month names in search form
 - [fix] fully localized footer (disclaimer)
-- [fix] Herausspringen aus Betreffzeile nach Eingabe des ersten Zeichens iOS Bug behoben
+- [fix] On iOS Cursors doesn't jump out off subject field anymore
 
 ## 2012-04-13
 
