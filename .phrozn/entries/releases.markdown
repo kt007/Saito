@@ -4,6 +4,8 @@
 
 ## master head (not officially released)
 
+## 2012-04-24
+
 - Dedicated [Saito homepage](http://saito.siezi.com/)
 - [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-13
 - [new] Many more layout tweaks
