@@ -1,10 +1,10 @@
 # Notes
 
-The forum was originally designed to run on a [mylittleforum ][mlf] 1.x database *at same time* as [mylittleforum][mlf]. If you encounter WTF: consider if it makes sense in that context … and then shoot it!
+The forum was originally designed to run on a [mylittleforum ][mlf] 1.x database *at same time* as [mylittleforum][mlf]. If you encounter WTF: consider if it makes sense in that context … and then fix it!
 
-Currently it's only running at and therefor is still partly customized for [macnemo.de][macnemo].
+Because it was originally build for [macnemo.de][macnemo] it is still partly customized for it. This  includes the german localization and explains the incomplete english one.
 
-So, there are some quirks (and a freaking polar bear – his name is WTF) in it.
+So, there are some quirks (and a dragon) in it.
 
 [mlf]: http://mylittleforum.net/
 [macnemo]: http://macnemo.de/
