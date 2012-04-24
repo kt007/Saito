@@ -4,7 +4,7 @@ layout:	home.twig
 <div class="row">
 <div class="span5" markdown="1">
 
-##	What is it?
+##	What is it
 
 Saito is an open source web forum written in PHP and atop of [CakePHP].
 
@@ -35,7 +35,7 @@ One goal was to have it deployable even on cheap webhosters.
 </div>
 <div class="span5" markdown="1">
 
-## Warum?
+## Warum
 
 Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode.
 
@@ -47,36 +47,51 @@ Ein Ziel war es, das Forum auf Webhostern selbst im günstigsten Paket installie
 <div class="row">
 <div class="span5" markdown="1">
 
-## Where is it?
+## Where is it
 
 The [source code is hosted on GitHub][Saito Code].
 
 </div>
 <div class="span5" markdown="1">
 
-## Wo?
+## Wo
 
 Gehostet wird der [Quellcode auf GitHub][Saito Code].
 
 </div>
 </div>
 
+
 <div class="row">
 <div class="span5" markdown="1">
 
-## I have something to say!
+## I have something to say
 
 Please don't hesitate to [file issues or suggest ideas][Saito Issues].
 
 </div>
 <div class="span5" markdown="1">
 
-## Mitmachen!
+## Mitmachen
 
 Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 
 </div>
 </div>
+
+---
+
+<div class="row">
+<div class="span6 offset2" markdown="1">
+
+## Buzzword Bingo
+
+PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha, Localization, Smilies, Image and Video Embedding, flattr, Compass, Sass, Blueprint, Bootstrap, Backbone, jQuery, jQuery UI, Premature Optimization … **BINGO!**
+
+</div>
+</div>
+
+
 
 ---
 
