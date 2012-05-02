@@ -13,7 +13,7 @@ See the [test-installation][testforum] for a demo.
 </div>
 <div class="span5" markdown="1">
 
-## Was?
+## Was
 
 Saito ist ein Open Source Webforum geschrieben in PHP auf Basis von [CakePHP].
 
@@ -26,9 +26,9 @@ Es kann sich im [Testforum][testforum] angeschaut werden.
 <div class="row">
 <div class="span5" markdown="1">
 
-## Why?
+## Why
 
-We had the need for a classic threaded forum but with modern, maintainable and extendable source.
+We had the need for a classic threaded forum for [macnemo.de] but with modern, maintainable and extendable source.
 
 One goal was to have it deployable even on cheap webhosters.
 
@@ -37,7 +37,7 @@ One goal was to have it deployable even on cheap webhosters.
 
 ## Warum
 
-Wir wollten ein klassisches Forum mit Baumstruktur und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode.
+Wir wollten ein klassisches Forum mit Baumstruktur für [macnemo.de] und gleichzeitig einen halbwegs modernen, wartbaren und erweiterbaren Quellcode.
 
 Ein Ziel war es, das Forum auf Webhostern selbst im günstigsten Paket installieren zu können.
 
@@ -86,7 +86,7 @@ Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 
 ## Buzzword Bingo
 
-PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha, Localization, Smilies, Image and Video Embedding, flattr, Compass, Sass, Blueprint, Bootstrap, Backbone, jQuery, jQuery UI, Premature Optimization … **BINGO!**
+PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha, Localization, Smilies, Image, html5-Audio/-Video and flash/iframe Video Embedding, Custom Colors, Inline Opening and Editing, Signatures, Messages via Email, Mark as Read, flattr, jQuery, jQuery UI, Compass, Sass, Blueprint, Bootstrap, Backbone, Premature Optimization – **BINGO!**
 
 </div>
 </div>

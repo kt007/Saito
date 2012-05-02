@@ -4,14 +4,27 @@
 
 ## master head (not officially released)
 
+## 2012-05-02
+
+- [new] update to CakePHP 2.1.2
+- [new] many more layout tweaks
+- [new] more english localization
+- [new] more resolution independent icons
+- [new] admin can change his own password
+- [fix] contact admin broken if user is not logged-in
+- [fix] shift-tab from entry textarea to subject field broken 
+
+
 ## 2012-04-24
 
 - Dedicated [Saito homepage](http://saito.siezi.com/)
 - [new] Updated Default layout with iPad and iPhone optimizations made to macnemo theme in v2012-04-13
-- [new] Many more layout tweaks
+- [new] *Many more* layout tweaks
 - [new] New close thread button (client side only)
 - [new] Resolution independend icons in navigation bar
 - [new] English localization (still incomplete)
+- [new] resizable search field in header
+- [fix] layout search field with shadow 1px off
 - [fix] localized german month names in search form
 - [fix] fully localized footer (disclaimer)
 - [fix] On iOS Cursors doesn't jump out off subject field anymore
