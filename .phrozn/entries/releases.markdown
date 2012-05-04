@@ -2,7 +2,16 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
-## master head (not officially released)
+
+## 2012-05-04
+
+- [new] more layout tweaks and css refactoring
+- [new] more english localizations
+- [new] stricter inline-answering: now on front page and in mix view only
+- [fix] CakePHP MySQL fulltext index patch for Cake 2.1.2
+- [fix] #43 Unterstrichen [u] funktioniert nicht
+- [fix] #42 Kein Inhalt im title-Tag nach Cake 2.1 Update
+- [fix] RSS feed (Cake 2 regression)
 
 ## 2012-05-02
 
