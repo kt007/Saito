@@ -2,6 +2,13 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-05-06
+
+- [new] popup help system
+- [new] several layout tweaks
+- [fix] missing page-number in title on entries/index
+- [fix] vertical back button in mix-view doesn't jump to thread in entries/index
+- [task] reimplemented header navigation with cake2.1 view blocks
 
 ## 2012-05-04
 
