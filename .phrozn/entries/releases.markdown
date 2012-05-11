@@ -2,6 +2,15 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-05-11
+
+- [new] more layout tweaks and css refactoring
+- [fix] #45 Replace ? Help-Icon with text.
+- [fix] #46 Replace Plus Sign in front of New Entry link with borderless one
+- [fix] #49 userranks_show with bogus default value after installation
+- [fix] #7 Tooltip für Kategoriensichtbarkeit
+- [fix] #47 No drop shadow on video embedding popup
+
 ## 2012-05-06
 
 - [new] popup help system
