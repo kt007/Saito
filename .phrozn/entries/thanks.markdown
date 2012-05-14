@@ -35,11 +35,12 @@ Und ein Gruß an alle Spender!
 | redcurry                | 85 € 	 	| 2012 	|
 | macnemo.de (Panxatony)  | 75 €	 	| 2012 	|
 | iXimus                  | 75 €    | 2012  |
+| kt007                   | 50 €    | 2012  |
 | fwskxgrd                | 50 €	 	| 2012 	|
 | truth		                | 15 € 		| 2012 	|
 | 1984                    | 50 € 	 	| 2010 	|
 
 <small class='muted'>
-Someone's missing? Want your name linked? Please let us know! – Last updated 2012-04-20. 
+Someone's missing? Want your name linked? Please let us know! – Last updated 2012-05-13. 
 </small>
 

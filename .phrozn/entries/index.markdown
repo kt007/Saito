@@ -100,6 +100,10 @@ PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha
 
 ## What others have to say
 
+<blockquote cite="Till">
+Ach, was soll's … die Optik hier ist eh <strong>Technikeraffin</strong> als <strong>Gestalterlastig</strong>. Hauptsache es <strong>funktioniert</strong>.
+</blockquote>
+
 <blockquote cite="Blinder Passagier">
 Uii. Ein neuer Knopp. +1
 </blockquote>
