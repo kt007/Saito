@@ -9,7 +9,7 @@
 - [new] changed html title-tag format from `forumtitle – pagetitle` to `pagetitle – forumtitle`
 - [new] ca. server-time spend generating the site displayed in front-page footer
 - [new] layout tweaks
-- [fix] fixed a critical security issue where users could change each others passwords
+- [fix] theoretical issue where users could change each others passwords
 - [fix] flattr button now loads its resources via https if the forum itself is running with https (fixes browser error message "insecure content")
 - [fix] unofficial support for font-size in user-preferences
 - [fix] #52 Wrong comma and username format when viewing posting and not logged-in
