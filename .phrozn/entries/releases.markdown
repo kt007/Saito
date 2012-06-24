@@ -2,6 +2,25 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-06-24
+
+- [new] Admin option to enable moderators to block users
+- [new] Admin can delete users
+- [new] Admin option to store (anonymized) IPs
+- [new] Admin sees user's email adress in users/view/#
+- [new] More resolution independent icons
+- [new] Password are stored using bcrypt (automatic migration for existing user on next login)
+- [new] Support for authentication with mylittleforum 2 passwords
+- [new] Notify admin when new users registers (see saito_config file) [testing notification system]
+- [fix] #55 German Language files entnemofizieren
+- [fix] wrong link on button in entries/view to entries/mix 
+- [fix] one very long word in subject breaks layout (esp. iPhone)
+- [fix] empty parentheses in user/view when user ranks are deactivated
+- [fix] Last entries in users/view doesn't respect user's access rights
+- [fix] Search doesn't respect user's access rights
+- [fix] heavily refactored styles
+- [fix] Expanded german and english localization
+
 ## 2012-05-16
 
 - [new] #53 Use local font files instead of Google Fonts
@@ -9,6 +28,7 @@
 - [new] changed html title-tag format from `forumtitle – pagetitle` to `pagetitle – forumtitle`
 - [new] ca. server-time spend generating the site displayed in front-page footer
 - [new] layout tweaks
+- [fix] no Open Sans font on older OS X/Safari versions 
 - [fix] theoretical issue where users could change each others passwords
 - [fix] flattr button now loads its resources via https if the forum itself is running with https (fixes browser error message "insecure content")
 - [fix] unofficial support for font-size in user-preferences

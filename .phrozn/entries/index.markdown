@@ -86,7 +86,7 @@ Bitte nicht zögern, [Ideen und Fehler zu berichten][Saito Issues]!
 
 ## Buzzword Bingo
 
-PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha, Localization, Smilies, Image, html5-Audio/-Video and flash/iframe Video Embedding, Custom Colors, Inline Opening and Editing, Signatures, Messages via Email, Mark as Read, flattr, jQuery, jQuery UI, Compass, Sass, Blueprint, Bootstrap, Backbone, Premature Optimization – **BINGO!**
+PHP 5.3, CakePHP 2, MySQL, UTF-8, BBCode, Geshi, RSS-Feed, Image Upload, Captcha, Localization, Smilies, html5-Audio/-Video and flash/iframe Video Embedding, Custom Colors, Inline Opening and Editing, Signatures, Messages via Email, Mark as Read, flattr, jQuery, jQuery UI, Compass, Sass, Blueprint, Bootstrap, Backbone, Premature Optimization – **BINGO!**
 
 </div>
 </div>
