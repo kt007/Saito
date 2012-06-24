@@ -21,6 +21,14 @@
 - [fix] heavily refactored styles
 - [fix] Expanded german and english localization
 
+DB Changes:
+
+    INSERT INTO `settings` (`name`, `value`) VALUES ('block_user_ui', 1);
+    INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip', '1');
+    INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip_anonymized', '1');
+
+    ALTER TABLE `entries` ADD `ip` VARCHAR(39)  NULL  DEFAULT NULL  AFTER `nsfw`;
+
 ## 2012-05-16
 
 - [new] #53 Use local font files instead of Google Fonts
