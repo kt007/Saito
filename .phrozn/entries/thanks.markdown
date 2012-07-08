@@ -43,4 +43,3 @@ Und ein Gruß an alle Spender!
 <small class='muted'>
 Someone's missing? Want your name linked? Please let us know! – Last updated 2012-05-13. 
 </small>
-

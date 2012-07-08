@@ -2,6 +2,68 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07-08
+
+### What's new
+
+- [new] update to CakePHP 2.2
+- [new] using Rijndael for cookie encryption
+- [new] performance improvements on entries/index
+- [fix] #56 Editing posting doesn't empty its tree cache.
+- [fix] route /login 
+- [fix] german localization title tag edit buttons
+
+### Update Note
+
+Don't forget to update your `lib/Cake` folder.
+
+Because of the new cookie encryption format permanently logged-in users have to login again to renew their cookie.
+
+## 2012-06-30
+
+### What's new
+
+- [new] significant performance improvement (less server load) on entries/index
+- [fix] Security issue when performing searches
+- [fix] can't paginate on entries/index
+- [fix] layout: no padding on inline-opened entries
+
+### DB Changes
+
+    ALTER TABLE `users` ADD UNIQUE INDEX (`username`);
+    ALTER TABLE  `categories` ADD  `thread_count` INT( 11 ) NOT NULL
+
+
+## 2012-06-27
+
+- [new] /login shortcut for login-form at /users/login
+- [fix] no title-tag on (Category) in /entries/view/#
+- [fix] several display glitches on help popups
+- [fix] #54 Posting preview contains (Categorie) in headline
+- [fix] Minor layout glitches.™
+
+## 2012-06-26
+
+
+### What's new
+
+- [new] embed.ly support
+- [new] /entries/source/#id outputs raw bbcode
+- [new] horizontal ruler tag [hr][/hr] with custom shortcut [---]
+- [fix] no frontpage caching for logged-out users
+- [fix] improved positioning of smiley popup in entries edit form
+- [fix] layout tweaks
+
+### DB Changes:
+
+    INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
+
+    INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_key', NULL);
+
+### Theme Changes
+
+Please note that Layouts/default.ctp now includes all JS and CakePHP boilerplate via layout/html_footer.ctp to simplify future updates.
+
 ## 2012-06-24
 
 - [new] Admin option to enable moderators to block users
@@ -24,7 +86,7 @@
 DB Changes:
 
     INSERT INTO `settings` (`name`, `value`) VALUES ('block_user_ui', 1);
-    INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip', '1');
+    INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip', '0');
     INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip_anonymized', '1');
 
     ALTER TABLE `entries` ADD `ip` VARCHAR(39)  NULL  DEFAULT NULL  AFTER `nsfw`;

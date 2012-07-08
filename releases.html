@@ -42,6 +42,76 @@
 
 <p><i class='icon-info-sign icon-schmuck'></i></p>
 
+<h2>2012-07-08</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] update to CakePHP 2.2</li>
+<li>[new] using Rijndael for cookie encryption</li>
+<li>[new] performance improvements on entries/index</li>
+<li>[fix] #56 Editing posting doesn't empty its tree cache.</li>
+<li>[fix] route /login </li>
+<li>[fix] german localization title tag edit buttons</li>
+</ul>
+
+<h3>Update Note</h3>
+
+<p>Don't forget to update your <code>lib/Cake</code> folder.</p>
+
+<p>Because of the new cookie encryption format permanently logged-in users have to login again to renew their cookie.</p>
+
+<h2>2012-06-30</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] significant performance improvement (less server load) on entries/index</li>
+<li>[fix] Security issue when performing searches</li>
+<li>[fix] can't paginate on entries/index</li>
+<li>[fix] layout: no padding on inline-opened entries</li>
+</ul>
+
+<h3>DB Changes</h3>
+
+<pre><code>  ALTER TABLE `users` ADD UNIQUE INDEX (`username`);
+  ALTER TABLE  `categories` ADD  `thread_count` INT( 11 ) NOT NULL
+</code></pre>
+
+<h2>2012-06-27</h2>
+
+<ul>
+<li>[new] /login shortcut for login-form at /users/login</li>
+<li>[fix] no title-tag on (Category) in /entries/view/#</li>
+<li>[fix] several display glitches on help popups</li>
+<li>[fix] #54 Posting preview contains (Categorie) in headline</li>
+<li>[fix] Minor layout glitches.™</li>
+</ul>
+
+<h2>2012-06-26</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] embed.ly support</li>
+<li>[new] /entries/source/#id outputs raw bbcode</li>
+<li>[new] horizontal ruler tag [hr][/hr] with custom shortcut [---]</li>
+<li>[fix] no frontpage caching for logged-out users</li>
+<li>[fix] improved positioning of smiley popup in entries edit form</li>
+<li>[fix] layout tweaks</li>
+</ul>
+
+<h3>DB Changes:</h3>
+
+<pre><code>  INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
+
+  INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_key', NULL);
+</code></pre>
+
+<h3>Theme Changes</h3>
+
+<p>Please note that Layouts/default.ctp now includes all JS and CakePHP boilerplate via layout/html_footer.ctp to simplify future updates.</p>
+
 <h2>2012-06-24</h2>
 
 <ul>
@@ -66,7 +136,7 @@
 <p>DB Changes:</p>
 
 <pre><code>  INSERT INTO `settings` (`name`, `value`) VALUES ('block_user_ui', 1);
-  INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip', '1');
+  INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip', '0');
   INSERT INTO `settings` (`name`, `value`) VALUES ('store_ip_anonymized', '1');
 
   ALTER TABLE `entries` ADD `ip` VARCHAR(39)  NULL  DEFAULT NULL  AFTER `nsfw`;
@@ -194,7 +264,7 @@
       <div class="row">
   <div class="span12">
     <small class="muted">
-      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-06-24 
+      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-07-08 
     </small>
   </div>
 </div>
