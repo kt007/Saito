@@ -42,6 +42,54 @@
 
 <p><i class='icon-info-sign icon-schmuck'></i></p>
 
+<h2>2012-07.01</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] Email notification about new answers to posting or thread</li>
+<li>[new] S(l)idetab recent entries. Shows the 10 last new entries.</li>
+<li>[new] refined users/edit layout (thanks to kt007)</li>
+<li>[new] Mods can merge threads (append thread to an entry in another thread)</li>
+<li>[new] admin forum setting to enable stopwatch output in production mode with url parameter <code>/stopwatch:true/</code></li>
+<li>[new] refactored cache: performance improvements on entries/index/#</li>
+</ul>
+
+<h3>DB Changes</h3>
+
+<p><span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.</p>
+
+<pre><code>  ALTER TABLE `users` DROP `show_about`;
+  ALTER TABLE `users` DROP `show_donate`;
+
+  ALTER TABLE  `users` ADD  `show_recententries` TINYINT( 1 ) UNSIGNED NOT NULL AFTER  `show_recentposts`;
+
+  INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '1');
+
+  CREATE TABLE `esevents` (
+    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+    `subject` int(11) unsigned NOT NULL,
+    `event` int(11) unsigned NOT NULL,
+    `created` datetime DEFAULT NULL,
+    `modified` datetime DEFAULT NULL,
+    PRIMARY KEY (`id`),
+    KEY `subject_event` (`subject`,`event`)
+  ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+  CREATE TABLE `esnotifications` (
+    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+    `user_id` int(11) unsigned NOT NULL,
+    `esevent_id` int(11) unsigned NOT NULL,
+    `esreceiver_id` int(11) unsigned NOT NULL,
+    `deactivate` int(8) unsigned NOT NULL,
+    `created` datetime DEFAULT NULL,
+    `modified` datetime DEFAULT NULL,
+    PRIMARY KEY (`id`),
+    KEY `userid_esreceiverid` (`user_id`,`esreceiver_id`),
+    KEY `eseventid_esreceiverid_userid` (`esevent_id`,`esreceiver_id`,`user_id`)
+  ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+</code></pre>
+
 <h2>2012-07-08</h2>
 
 <h3>What's new</h3>
@@ -74,8 +122,10 @@
 
 <h3>DB Changes</h3>
 
+<p><span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.</p>
+
 <pre><code>  ALTER TABLE `users` ADD UNIQUE INDEX (`username`);
-  ALTER TABLE  `categories` ADD  `thread_count` INT( 11 ) NOT NULL
+  ALTER TABLE `categories` ADD `thread_count` INT( 11 ) NOT NULL
 </code></pre>
 
 <h2>2012-06-27</h2>
@@ -103,8 +153,9 @@
 
 <h3>DB Changes:</h3>
 
-<pre><code>  INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
+<p><span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.</p>
 
+<pre><code>  INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
   INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_key', NULL);
 </code></pre>
 
@@ -264,7 +315,7 @@
       <div class="row">
   <div class="span12">
     <small class="muted">
-      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-07-08 
+      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-07-20 
     </small>
   </div>
 </div>

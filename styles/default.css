@@ -157,6 +157,7 @@ section { padding:0 2em; }
   -webkit-border-radius:2px;
   -moz-border-radius:2px;
 }
+.label { vertical-align:baseline; }
 .label-success { background-color:#00bb00; }
 .s-contentBox {
   background:white;

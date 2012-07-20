@@ -2,6 +2,52 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07.01
+
+### What's new
+
+- [new] Email notification about new answers to posting or thread
+- [new] S(l)idetab recent entries. Shows the 10 last new entries.
+- [new] refined users/edit layout (thanks to kt007)
+- [new] Mods can merge threads (append thread to an entry in another thread)
+- [new] admin forum setting to enable stopwatch output in production mode with url parameter `/stopwatch:true/`
+- [new] refactored cache: performance improvements on entries/index/#
+
+### DB Changes
+
+<span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.
+
+    ALTER TABLE `users` DROP `show_about`;
+    ALTER TABLE `users` DROP `show_donate`;
+
+    ALTER TABLE  `users` ADD  `show_recententries` TINYINT( 1 ) UNSIGNED NOT NULL AFTER  `show_recentposts`;
+
+    INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '1');
+
+    CREATE TABLE `esevents` (
+      `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+      `subject` int(11) unsigned NOT NULL,
+      `event` int(11) unsigned NOT NULL,
+      `created` datetime DEFAULT NULL,
+      `modified` datetime DEFAULT NULL,
+      PRIMARY KEY (`id`),
+      KEY `subject_event` (`subject`,`event`)
+    ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+    CREATE TABLE `esnotifications` (
+      `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+      `user_id` int(11) unsigned NOT NULL,
+      `esevent_id` int(11) unsigned NOT NULL,
+      `esreceiver_id` int(11) unsigned NOT NULL,
+      `deactivate` int(8) unsigned NOT NULL,
+      `created` datetime DEFAULT NULL,
+      `modified` datetime DEFAULT NULL,
+      PRIMARY KEY (`id`),
+      KEY `userid_esreceiverid` (`user_id`,`esreceiver_id`),
+      KEY `eseventid_esreceiverid_userid` (`esevent_id`,`esreceiver_id`,`user_id`)
+    ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+    
+
 ## 2012-07-08
 
 ### What's new
@@ -30,8 +76,10 @@ Because of the new cookie encryption format permanently logged-in users have to 
 
 ### DB Changes
 
+<span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.
+
     ALTER TABLE `users` ADD UNIQUE INDEX (`username`);
-    ALTER TABLE  `categories` ADD  `thread_count` INT( 11 ) NOT NULL
+    ALTER TABLE `categories` ADD `thread_count` INT( 11 ) NOT NULL
 
 
 ## 2012-06-27
@@ -56,8 +104,9 @@ Because of the new cookie encryption format permanently logged-in users have to 
 
 ### DB Changes:
 
-    INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
+<span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.
 
+    INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_enabled', '0');
     INSERT INTO `settings` (`name`, `value`) VALUES ('embedly_key', NULL);
 
 ### Theme Changes
