@@ -42,6 +42,41 @@
 
 <p><i class='icon-info-sign icon-schmuck'></i></p>
 
+<h2>2012-07.02</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] Category chooser on front page
+
+<ul>
+<li>Admin option to activate for all users</li>
+<li>Admin option to allow users to activate in their user pref</li>
+</ul></li>
+<li>[new] Term of Service confirmation checkbox on user registration
+
+<ul>
+<li>Admin option to enable it</li>
+<li>Admin option to provide a custom ToS-url</li>
+</ul></li>
+<li>[new] #62 Support for embedding .opus files</li>
+</ul>
+
+<h3>DB Changes</h3>
+
+<p><span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.</p>
+
+<pre><code>  ALTER TABLE `users` CHANGE `activate_code` `activate_code` INT(7)  UNSIGNED  NOT NULL;
+
+  ALTER TABLE `users` DROP `user_categories`;
+  ALTER TABLE  `users` ADD  `user_category_override` TINYINT( 1 ) UNSIGNED NOT NULL AFTER `flattr_allow_posting` , ADD  `user_category_active` INT( 11 ) NOT NULL DEFAULT '0' AFTER `user_category_override` , ADD  `user_category_custom` VARCHAR( 512 ) NOT NULL AFTER  `user_category_active`;
+  INSERT INTO `settings` (`name`, `value`) VALUES ('category_chooser_global', '0');
+  INSERT INTO `settings` (`name`, `value`) VALUES ('category_chooser_user_override', '1');
+
+  INSERT INTO `settings` (`name`, `value`) VALUES ('tos_enabled', '0');
+  INSERT INTO `settings` (`name`, `value`) VALUES ('tos_url', '');
+</code></pre>
+
 <h2>2012-07.01</h2>
 
 <h3>What's new</h3>
@@ -315,7 +350,7 @@
       <div class="row">
   <div class="span12">
     <small class="muted">
-      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-07-20 
+      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-07-21 
     </small>
   </div>
 </div>

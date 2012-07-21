@@ -55,6 +55,21 @@ ul {
   list-style: square;
 }
 
+ul ul {
+  margin-left: 1em;
+  list-style-type: none;
+
+  @ti: -1em;
+  li:before { 
+    content:"–"; 
+    position:relative; 
+    left:-5px;
+    }
+   li { 
+     text-indendt: -5px;
+     }
+}
+
 a {
   color: @link-color;
 }
@@ -241,10 +256,6 @@ section {
 
 .btn, .label {
   .rounded-corners(2px);
-}
-
-.label {
-  vertical-align: baseline;
 }
 
 .label-success {

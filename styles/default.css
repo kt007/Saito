@@ -38,6 +38,16 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 ul { list-style:square; }
+ul ul {
+  margin-left:1em;
+  list-style-type:none;
+}
+ul ul li:before {
+  content:"–";
+  position:relative;
+  left:-5px;
+}
+ul ul li { text-indendt:-5px; }
 a { color:#005580; }
 hr {
   border-top-color:#b3c5cb;
@@ -157,7 +167,6 @@ section { padding:0 2em; }
   -webkit-border-radius:2px;
   -moz-border-radius:2px;
 }
-.label { vertical-align:baseline; }
 .label-success { background-color:#00bb00; }
 .s-contentBox {
   background:white;

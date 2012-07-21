@@ -2,6 +2,33 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07.02
+
+### What's new
+
+- [new] Category chooser on front page
+  - Admin option to activate for all users
+  - Admin option to allow users to activate in their user pref
+- [new] Term of Service confirmation checkbox on user registration
+  - Admin option to enable it
+  - Admin option to provide a custom ToS-url
+- [new] #62 Support for embedding .opus files
+
+### DB Changes
+
+<span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.
+
+    ALTER TABLE `users` CHANGE `activate_code` `activate_code` INT(7)  UNSIGNED  NOT NULL;
+
+    ALTER TABLE `users` DROP `user_categories`;
+    ALTER TABLE  `users` ADD  `user_category_override` TINYINT( 1 ) UNSIGNED NOT NULL AFTER `flattr_allow_posting` , ADD  `user_category_active` INT( 11 ) NOT NULL DEFAULT '0' AFTER `user_category_override` , ADD  `user_category_custom` VARCHAR( 512 ) NOT NULL AFTER  `user_category_active`;
+    INSERT INTO `settings` (`name`, `value`) VALUES ('category_chooser_global', '0');
+    INSERT INTO `settings` (`name`, `value`) VALUES ('category_chooser_user_override', '1');
+
+    INSERT INTO `settings` (`name`, `value`) VALUES ('tos_enabled', '0');
+    INSERT INTO `settings` (`name`, `value`) VALUES ('tos_url', '');
+
+
 ## 2012-07.01
 
 ### What's new
