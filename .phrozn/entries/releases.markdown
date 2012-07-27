@@ -2,6 +2,21 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07.03
+
+### What's new
+
+- [new] subject field in answer form is empty by default
+- [new] user tab in admin panel
+- [fix] add user in admin panel
+- [fix] #65 [Space in thread line before posting time][gh65]
+- [fix] cleaned up rss/json feed data
+- [fix] #63 [Show the last 20 instead of 10 entries in users/view/#][gh63]
+
+[gh63]: https://github.com/Schlaefer/Saito/issues/63
+[gh65]: https://github.com/Schlaefer/Saito/issues/65
+
+
 ## 2012-07.02
 
 ### What's new
