@@ -2,7 +2,15 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07.05
+
+### What's new
+
+- [new] if subject is empty when answering use parent's subject
+
 ## 2012-07.04
+
+### What's new
 
 - [new] #67 [Countdown timer in editing form][gh67]
 - [fix] #68 [fix admin/users/index sorting for registration date][gh68]
