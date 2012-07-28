@@ -2,6 +2,15 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-07.04
+
+- [new] #67 [Countdown timer in editing form][gh67]
+- [fix] #68 [fix admin/users/index sorting for registration date][gh68]
+
+[gh67]: https://github.com/Schlaefer/Saito/issues/67
+[gh68]: https://github.com/Schlaefer/Saito/issues/68
+
+
 ## 2012-07.03
 
 ### What's new
