@@ -2,6 +2,20 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-08.01
+
+### What's new
+
+- [new] Hide signature separator if signature is empty
+- [new] Relative time values in recent entries sidetab
+- [new] Layout tweaks 
+- [fix] hide mod menu in entry/view if menu is empty
+- [fix]  #64 [Mod menu in users/view/# empty if no mod option] [gh64]
+- [fix] anonymous user counter shows negative value (-1)
+- [fix] Localizations
+
+[gh64]: https://github.com/Schlaefer/Saito/issues/64
+
 ## 2012-07.05
 
 ### What's new
