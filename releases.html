@@ -42,6 +42,66 @@
 
 <p><i class='icon-info-sign icon-schmuck'></i></p>
 
+<h2>2012-08.03</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[new] bookmarks</li>
+<li>[new] tweaked caching for better performance</li>
+<li>[new] layout tweaks</li>
+</ul>
+
+<h3>DB Changes</h3>
+
+<p><span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.</p>
+
+<pre><code>  CREATE TABLE `bookmarks` (
+    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+    `user_id` int(11) unsigned NOT NULL,
+    `entry_id` int(11) unsigned NOT NULL,
+    `comment` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+    `created` datetime NOT NULL,
+    `modified` datetime NOT NULL,
+    PRIMARY KEY (`id`),
+    KEY `entry_id-user_id` (`entry_id`,`user_id`),
+    KEY `user_id` (`user_id`)
+  ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+  CREATE TABLE `ecaches` (
+    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+    `created` datetime NOT NULL,
+    `modified` datetime NOT NULL,
+    `key` varchar(128) NOT NULL,
+    `value` mediumblob NOT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `key` (`key`)
+  ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+</code></pre>
+
+<h3>Theme Changes</h3>
+
+<p>Update in your default.ctp:</p>
+
+<pre><code>  &lt;div id='modalLoginDialog' style='height: 0px; overflow: hidden;'&gt;
+    &lt;?php echo $this-&gt;element('users/login_form'); ?&gt;
+  &lt;/div&gt;
+</code></pre>
+
+<p>to</p>
+
+<pre><code>  &lt;?php echo $this-&gt;element('users/login_modal'); ?&gt;
+</code></pre>
+
+<h2>2012-08.02</h2>
+
+<h3>What's new</h3>
+
+<ul>
+<li>[fix] #57 <a href="https://github.com/Schlaefer/Saito/issues/57">Bottom of drop down menues is hidden in the inline view of the index</a></li>
+<li>[fix] cascading mod-button in entries/mix/#</li>
+</ul>
+
 <h2>2012-08.01</h2>
 
 <h3>What's new</h3>
@@ -51,7 +111,7 @@
 <li>[new] Relative time values in recent entries sidetab</li>
 <li>[new] Layout tweaks </li>
 <li>[fix] hide mod menu in entry/view if menu is empty</li>
-<li>[fix]  #64 <a href="https://github.com/Schlaefer/Saito/issues/64">Mod menu in users/view/# empty if no mod option</a></li>
+<li>[fix] #64 <a href="https://github.com/Schlaefer/Saito/issues/64">Mod menu in users/view/# empty if no mod option</a></li>
 <li>[fix] anonymous user counter shows negative value (-1)</li>
 <li>[fix] Localizations</li>
 </ul>
@@ -143,7 +203,7 @@
 
   ALTER TABLE  `users` ADD  `show_recententries` TINYINT( 1 ) UNSIGNED NOT NULL AFTER  `show_recentposts`;
 
-  INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '1');
+  INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '0');
 
   CREATE TABLE `esevents` (
     `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -394,7 +454,7 @@
       <div class="row">
   <div class="span12">
     <small class="muted">
-      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-08-02 
+      Last <a href="http://www.phrozn.info/">phrozn</a> on 2012-08-10 
     </small>
   </div>
 </div>

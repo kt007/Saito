@@ -2,6 +2,63 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-08.03
+
+### What's new
+
+- [new] bookmarks
+- [new] tweaked caching for better performance
+- [new] layout tweaks
+
+### DB Changes
+
+<span class="label label-warning">Note:</span> Don't forget to add your table prefix if necessary.
+
+    CREATE TABLE `bookmarks` (
+      `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+      `user_id` int(11) unsigned NOT NULL,
+      `entry_id` int(11) unsigned NOT NULL,
+      `comment` varchar(255) CHARACTER SET utf8 NOT NULL DEFAULT '',
+      `created` datetime NOT NULL,
+      `modified` datetime NOT NULL,
+      PRIMARY KEY (`id`),
+      KEY `entry_id-user_id` (`entry_id`,`user_id`),
+      KEY `user_id` (`user_id`)
+    ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+    CREATE TABLE `ecaches` (
+      `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+      `created` datetime NOT NULL,
+      `modified` datetime NOT NULL,
+      `key` varchar(128) NOT NULL,
+      `value` mediumblob NOT NULL,
+      PRIMARY KEY (`id`),
+      UNIQUE KEY `key` (`key`)
+    ) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+### Theme Changes
+
+Update in your default.ctp:
+
+    <div id='modalLoginDialog' style='height: 0px; overflow: hidden;'>
+      <?php echo $this->element('users/login_form'); ?>
+    </div>
+
+to
+
+    <?php echo $this->element('users/login_modal'); ?>
+
+
+
+## 2012-08.02
+
+### What's new
+
+- [fix] #57 [Bottom of drop down menues is hidden in the inline view of the index][gh57]
+- [fix] cascading mod-button in entries/mix/#
+
+[gh57]: https://github.com/Schlaefer/Saito/issues/57
+
 ## 2012-08.01
 
 ### What's new
@@ -10,7 +67,7 @@
 - [new] Relative time values in recent entries sidetab
 - [new] Layout tweaks 
 - [fix] hide mod menu in entry/view if menu is empty
-- [fix]  #64 [Mod menu in users/view/# empty if no mod option] [gh64]
+- [fix] #64 [Mod menu in users/view/# empty if no mod option][gh64]
 - [fix] anonymous user counter shows negative value (-1)
 - [fix] Localizations
 
@@ -95,7 +152,7 @@
 
     ALTER TABLE  `users` ADD  `show_recententries` TINYINT( 1 ) UNSIGNED NOT NULL AFTER  `show_recentposts`;
 
-    INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '1');
+    INSERT INTO `settings` (`name`, `value`) VALUES ('stopwatch_get', '0');
 
     CREATE TABLE `esevents` (
       `id` int(11) unsigned NOT NULL AUTO_INCREMENT,

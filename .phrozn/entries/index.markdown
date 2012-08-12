@@ -8,7 +8,7 @@ layout:	home.twig
 
 Saito is an open source web forum written in PHP and atop of [CakePHP].
 
-See the [test-installation][testforum] for a demo.
+See the [macnemo.de] for a running installation.
 
 </div>
 <div class="span5" markdown="1">
@@ -17,7 +17,7 @@ See the [test-installation][testforum] for a demo.
 
 Saito ist ein Open Source Webforum geschrieben in PHP auf Basis von [CakePHP].
 
-Es kann sich im [Testforum][testforum] angeschaut werden.
+Es kann sich im bei [macnemo.de] angeschaut werden.
 
 </div>
 </div>
