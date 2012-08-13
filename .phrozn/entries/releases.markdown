@@ -2,6 +2,17 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-08.04
+
+### What's new
+
+- [new] improved caching behavior
+- [new] update documentation
+- [fix] #72 [Update to jQuery 1.8][gh72]
+- [fix] l10n
+
+[gh72]: https://github.com/Schlaefer/Saito/issues/72
+
 ## 2012-08.03
 
 ### What's new
