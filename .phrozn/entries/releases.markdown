@@ -2,6 +2,19 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-08.05
+
+### What's new
+
+- [new] significant performance improvements
+- [new] plot of stopwatch diff times in debug mode
+- [new] #73 [append disclaimer to all page controller pages][gh73]
+- [new] improved tab behavior on users/login
+- [fix] #77 ["Edit Bookmark" eindeutschen][gh77]
+
+[gh73]: https://github.com/Schlaefer/Saito/issues/73
+[gh77]: https://github.com/Schlaefer/Saito/issues/77
+
 ## 2012-08.04
 
 ### What's new
