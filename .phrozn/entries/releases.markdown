@@ -2,6 +2,52 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-08.07
+
+### What's new
+
+- [new] reduced recent user postings in s(l)idetab from 10 to 5
+- [new] /users/contact/0 contacts email adress specified in admin forum settings
+- [fix] use forum_disabled.ctp from current Theme folder
+- [fix] #18 [remove macnemo favicon][gh18]
+- [fix] #84 [Uncached threads always show the showNewThreads-Button][gh84]
+- [task] #11 [forum_disabled.ctp entnemofizieren][gh11]
+- [task] #83 [rename 'Alles' to 'Alle Kategorien' for category chooser
+][gh83]
+- [task] javascript refactoring
+
+[gh11]: https://github.com/Schlaefer/Saito/issues/11
+[gh18]: https://github.com/Schlaefer/Saito/issues/18
+[gh83]: https://github.com/Schlaefer/Saito/issues/83
+[gh84]: https://github.com/Schlaefer/Saito/issues/84
+
+### Theme Changes
+
+Contact adress in disclaimer.ctp is now `/users/contact/0` (was `/users/contact/1`).
+
+## 2012-08.06
+
+### What's new
+
+- [new] change language with `lang:<lang>` url parameter on the fly
+- [fix] #82 [Pin and Lock menu don't send ajax call when openend inline
+][gh82]
+- [fix] #81 [Performing Un-/pin and Un-/lock in mod menu removes icon][gh81]
+- [fix] no editing and user's homeplace information in entries/mix
+- [fix] no pin icon in entries/[view|mix]
+- [task] implemented s(l)idetabs using view blocks
+- [task] Entry code refactoring
+- [task] Auth code cleanup
+
+[gh81]: https://github.com/Schlaefer/Saito/issues/81
+[gh82]: https://github.com/Schlaefer/Saito/issues/82
+
+    
+### Theme Changes
+
+All CSS `slidebar*` classes were consolidated and renamed to `slidetab*`.
+
+
 ## 2012-08.05
 
 ### What's new
