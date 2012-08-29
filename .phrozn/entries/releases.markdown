@@ -2,6 +2,22 @@
 
 <i class='icon-info-sign icon-schmuck'></i>
 
+## 2012-09.01
+
+### What's new
+
+- [new] "Empty Caches" button in admin panel
+- [new] performance improvements
+- [fix] layout tweaks in /users/edit/#
+- [fix] refresh time stepper allows values below zero
+- [fix] #89 [New entry instead of reply with deactivated JS][gh89]
+- [fix] no search results for username if Entry.name is empty
+- [fix] open new entries button is shown for not logged-in users
+- [fix] Missing localization for entries in mod menu 
+- [task] Javascript refactoring
+
+[gh89]: https://github.com/Schlaefer/Saito/issues/89
+
 ## 2012-08.07
 
 ### What's new

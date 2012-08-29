@@ -32,6 +32,7 @@ Und ein Gruß an alle Spender!
 
 | <i class='icon-resize-vertical'></i> Donor 	| <i class='icon-resize-vertical'></i> Value 	| <i class='icon-resize-vertical'></i> Last Seen | 
 | ----------------------- | ------ 	| -----	|
+| macfix.de               | 500 € 	| 2012 	|
 | redcurry                | 85 € 	 	| 2012 	|
 | iXimus                  | 75 €    | 2012  |
 | kt007                   | 50 €    | 2012  |
@@ -41,5 +42,5 @@ Und ein Gruß an alle Spender!
 | 1984                    | 50 € 	 	| 2010 	|
 
 <small class='muted'>
-Someone's missing? Want your name linked? Please let us know! – Last updated 2012-05-13. 
+Someone's missing? Want your name linked? Please let us know! – Last updated 2012-08-26. 
 </small>
